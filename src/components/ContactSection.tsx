@@ -157,7 +157,7 @@ const ContactSection = () => {
                   />
                 </a>
 
-                <a
+                {/* <a
                   href="tel:+18001234567"
                   className="group flex items-center gap-4 p-4 rounded-lg border border-surface-dark-foreground/10 hover:border-accent/30 hover:bg-surface-dark-foreground/[0.03] transition-all duration-300"
                 >
@@ -176,11 +176,11 @@ const ContactSection = () => {
                     size={14}
                     className="ml-auto text-surface-dark-foreground/20 group-hover:text-accent group-hover:translate-x-0.5 transition-all duration-300"
                   />
-                </a>
+                </a> */}
               </div>
             </div>
 
-            <a
+            {/* <a
               href="https://wa.me/18001234567"
               target="_blank"
               rel="noopener noreferrer"
@@ -192,7 +192,7 @@ const ContactSection = () => {
                 size={14}
                 className="text-surface-dark-foreground/30 group-hover:text-accent group-hover:translate-x-0.5 transition-all duration-300"
               />
-            </a>
+            </a> */}
           </motion.div>
         </div>
       </div>

@@ -23,14 +23,14 @@ const HeroSection = () => (
             href="#contact"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-7 py-3.5 rounded-md text-sm font-semibold hover:opacity-90 transition-opacity"
           >
-            Become a Dealer <ArrowRight size={16} />
+            Request a Demo <ArrowRight size={16} />
           </a>
-          <a
+          {/* <a
             href="#contact"
             className="inline-flex items-center gap-2 border border-foreground/20 text-foreground px-7 py-3.5 rounded-md text-sm font-semibold hover:bg-muted transition-colors"
           >
             Request a Demo
-          </a>
+          </a> */}
           <a
             href="#contact"
             className="inline-flex items-center gap-2 text-accent text-sm font-semibold px-4 py-3.5 hover:underline underline-offset-4"
